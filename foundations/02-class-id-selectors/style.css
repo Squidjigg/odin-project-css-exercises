@@ -1,0 +1,21 @@
+#num2 {
+    color: #0000ff;
+    font-size: 36px;
+
+}
+
+#num4 {
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.odd {
+    background-color: #e9967a;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.big-font {
+    font-size: 24px;
+}
