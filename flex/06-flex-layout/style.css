@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
 }
 
 img {
@@ -32,8 +32,25 @@ input {
 
 ul{
   list-style: none;
+  /* padding: 0 4px;  */
+}
+
+a {
+  margin: 0 12px;
+
 }
 
 .content {
   text-align: center;
+}
+
+.header, .footer {
+  display:flex;
+  justify-content: space-between;
+}
+
+.left-links, .right-links {
+  display: flex;
+  padding: 0;
+  /* justify-content: space-between; */
 }
