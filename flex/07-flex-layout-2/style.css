@@ -20,7 +20,8 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  display: flex;
+  min-width: 300px;
   background: royalblue;
 }
 
@@ -33,6 +34,7 @@ body {
 
 .content {
   display: flex;
+  flex-grow: 1;
 }
 
 .card-layout {
