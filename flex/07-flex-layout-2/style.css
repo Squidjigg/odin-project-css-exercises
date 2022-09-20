@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .header {
@@ -19,10 +19,23 @@ body {
   color: darkmagenta;
 }
 
+.content {
+  display: flex;
+  flex-grow: 1;
+}
+
 .sidebar {
   display: flex;
   min-width: 300px;
   background: royalblue;
+}
+
+.card-layout {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 32px;
 }
 
 .card {
@@ -30,15 +43,6 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   margin: 10px;
-}
-
-.content {
-  display: flex;
-  flex-grow: 1;
-}
-
-.card-layout {
-  display: flex;
-  /* gap: 20px; */
-  padding: 32px;
+  width: 300px;
+  height: 300px;
 }
